@@ -1,0 +1,140 @@
+table.ContentArea {
+	margin-left: 150px;
+	width:1200px;
+	height:700px;
+	border:round
+}
+
+td.ContentArea {
+	background-color:white;
+	vertical-align:top;
+	text-align:left;
+	padding: 0px 40px; 
+	border-radius: 60px;
+	border:2px solid #e3d5c5;
+	
+	/* This image is taken from a website
+		Source: istockphoto.com
+		URL: https://www.istockphoto.com/photo/bowl-with-dry-kibble-food-and-cat-accessories-on-wooden-table-top-view-pet-care-and-gm1244472883-362957484?phrase=cat%20toy*/
+	
+	background-image: url('Images/CatCareBackGround.png');
+	background-repeat: no-repeat;
+	background-size: 1200px 700px;	
+}
+
+p.ContentTitle {
+	-webkit-text-stroke: 1px black;
+	text-align:center;
+	font-weight:bolder;
+	font-size:40px;
+	font-family:Helvetica;
+	color:#fafafa;
+}
+
+div.InstructionsList {
+	width:670px;
+	height:540px;
+	margin-left:100px;
+	position: absolute;
+}
+
+ol.InstructionList {
+	padding: 20px 150px;
+	border:2px dashed #787674;
+	background-color:#a8a7a2;
+}
+
+li.InstructionList {
+	margin-top:10px;
+	font-weight:bold;
+	font-size:16px;
+	font-family: "Lucida", cursive;
+	color:white;
+}
+
+p.Source {
+	vertical-align:bottom;
+	text-align:right;
+	margin-right:10px;
+	font-family: "Lucida", cursive;
+	color:#40403f;
+}
+
+div.CatImage {
+	width:200px;
+	height:200px;
+	margin-left:750px;
+	border:2px solid white;
+	border-radius:100px 100px 100px 100px;
+	position: absolute;
+	
+	/* This image is taken from a website
+			Source: unsplash.com
+			URL: https://unsplash.com/photos/s1puI2BWQzQ*/
+	
+	background-image: url('Images/CatCare.png');
+	background-repeat: no-repeat;
+	background-size: 200px 200px;
+}
+
+div.CatFood {
+	width:200px;
+	height:200px;
+	margin-left:800px;
+	margin-top:150px;
+	border:2px solid white;
+	border-radius:100px 100px 100px 100px;
+	position: absolute;
+	
+	/* This image is taken from a website
+			Source: petfoodinstitute.org
+			URL: https://www.petfoodinstitute.org/about-pet-food/ingredients/choosing-a-pet-food/*/
+	
+	background-image: url('Images/CatFood.png');
+	background-repeat: no-repeat;
+	background-size: 200px 200px;
+}
+
+div.CatToys {
+	width:200px;
+	height:200px;
+	margin-left:850px;
+	margin-top:300px;
+	border-radius:100px 100px 100px 100px;
+	border:2px solid brown;
+	position: absolute;
+	
+	/* This image is taken from a website
+			Source: etsy.com
+			URL: https://www.etsy.com/ca/listing/888322131/pet-interactive-toy-cat-toys-three-layer*/
+	
+	background-image: url('Images/CatToys.png');
+	background-repeat: no-repeat;
+	background-size: 200px 200px;
+}
+
+div.CatCareSource {
+	width:200px;
+	height:200px;	
+	text-align:center;
+	font-family: "Lucida", cursive;
+	position: absolute;
+	
+	/* This image is taken from a website
+			Source: vectorshock.com
+			URL: https://www.vectorstock.com/royalty-free-vector/furry-cat-silhouette-vector-4044972*/
+	
+	background-image: url('Images/CatSource.png');
+	background-repeat: no-repeat;
+	background-size: 200px 200px;
+}
+
+p.SourceLink {
+	margin-top:90px;
+	margin-left:70px;
+}
+
+a.SourceLink {
+	text-decoration:none;
+	color:white;
+}

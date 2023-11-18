@@ -1,0 +1,60 @@
+
+table.ContentArea {
+	margin-left: 150px;
+	width:1200px;
+	height:700px;
+	border:round
+}
+
+td.ContentArea {
+	background-color:white;
+	vertical-align:top;
+	text-align:left;
+	padding: 0px 40px; 
+	border-radius: 60px;
+	border:2px solid #c2c447;
+	
+	/* This image is taken from a website
+		Source: freepik.com
+		URL: https://www.freepik.com/free-vector/cute-pets-illustration_16276919.htm#query=pet%20background&position=15&from_view=keyword*/
+	
+	background-image: url('Images/HomeBackGround.png');
+	background-repeat: no-repeat;
+	background-size: 1200px 700px;
+	
+}
+
+p.WelcomeMessage {
+	text-align:center;
+	font-weight:bolder;
+	font-size:40px;
+	font-family:Helvetica;
+	color:#c2c447;
+}
+
+p.SiteDescription {
+	font-size:16px;
+	font-family: "Verdana", sans-serif;
+}
+
+span.CompanyName {
+	color:green;
+	font-size:18px;
+}
+
+p.Goals {
+	margin-left:160px;
+	font-size:20px;
+	font-family:Arial;
+	text-decoration:underline;
+	color:#d1c149;
+}
+
+ul.Goals {list-style-type:none}
+
+li.Goals {
+	margin-left:160px;
+	padding: 5px 0px;
+	font-family: "Lucida", cursive;
+	color:green;
+}

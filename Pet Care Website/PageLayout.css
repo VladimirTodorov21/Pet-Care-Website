@@ -1,0 +1,102 @@
+
+div.background {
+	width:1840px;
+	
+	/* This image is taken from a website
+		Source: wallpapersafari.com
+		URL: https://wallpapersafari.com/w/dTuctf*/
+		
+	background-image: url('Images/PetLifeBackGround.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+div.header {
+	width:1840px;
+	
+	/* This image is taken from a website
+		Source: vecteezy.com
+		URL: https://www.vecteezy.com/vector-art/7836701-silhouettes-of-dogs-and-cats-best-friends*/
+	
+	background-color: white;
+	background-image: url('Images/HeaderPetLife.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 500px 150px;
+	
+}
+
+p.LogoName {
+	color:#09eb45;
+	padding:10px 10px;
+	font-family: 'Padyakke Expanded One';
+	font-size:40px;
+	font-weight:bold;
+}
+
+p.time {
+	margin-left:300px;
+	font-size:18px;
+	font-family: 'Padyakke Expanded One';
+	font-weight:bold;
+	font-size:20px;
+	color:brown;
+}
+
+list.SideMenu {
+	list-style-type:none;
+}
+
+td.SideMenuBorder {
+	
+	/* This image is taken from a website
+		Source: pinterest.ca
+		URL: https://www.pinterest.ca/beverlybenkart/borders-and-headers/*/
+	
+	background-image: url('Images/SideMenuImage.png');
+	background-repeat: no-repeat;
+	background-size: 201px 712px;
+	border:6px ridge white;
+}
+
+li.SideBar {
+	padding:30px 25px;
+	text-align:center;
+	color:solid black;
+	font-family: "Georgia", serif;
+	font-weight:bold;
+	margin-top:4px;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+li.active {
+	border-radius: 100px 100px 100px 100px;
+	background-color:black;
+	color:#81b387;
+}
+
+li.inactive:hover {
+	border-radius: 100px 100px 100px 100px;
+	background-color:#dbd0d6;
+	color:#2a592f;
+}
+
+a.Link:link{color:black; text-decoration:none;}
+a.Link:visited{color:black; text-decoration:none;}
+a.Link:hover{color:#2a592f; text-decoration:none;}
+
+div.footer {
+	background-color:#ede8ce;
+	width:1840px;
+}
+
+p.footerText {
+	text-align:right;
+	margin-right:20px;
+	padding:10px 0px;
+}
+
+a.Disclaimer:visited {color:#2da106}
+a.Disclaimer:hover {color:#e3860b}

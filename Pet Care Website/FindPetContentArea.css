@@ -1,0 +1,88 @@
+
+table.ContentArea {
+	margin-left: 150px;
+	width:1200px;
+	height:700px;
+	border:round
+}
+
+td.ContentArea {
+	background-color:white;
+	vertical-align:top;
+	text-align:left;
+	padding: 0px 40px; 
+	border-radius: 60px;
+	border:2px solid lightgreen;
+	background-color:#f7fcf5;
+}
+
+div.FindPetBackground {
+	width:850px;
+	height:200px;
+	margin-left:125px;
+	margin-top:15px;
+	border-radius: 100px 100px 0px 0px;
+	
+	/* This image is taken from a website
+		Source: istockphoto.com
+		URL: https://www.istockphoto.com/photos/animal-peaking*/
+	
+	background-image:url('Images/FindPetBackground.png');
+	background-repeat:no-repeat;
+	background-size:auto; 
+}
+
+div.FindPetContent {
+	width:850px;
+	height:450px;
+	margin-left:125px;
+	margin-top:5px;
+}
+
+p.FindPetTitle {
+	text-align:center;
+	font-weight:bold;
+	font-size:24px;
+	color:green;
+}
+
+td.FindPetForm {
+	padding:5px 5px;
+	font-size:18px;
+	font-family:"Lucida", cursive;
+	color:green;
+}
+
+select.FindPetForm {
+	width:200px;
+	font-size:18px;
+	font-family:"Lucida", cursive;
+	color:green;
+	border-radius:10px 10px 10px 10px;
+	border:2px solid green;
+	background-color:#f7f7f2;
+}
+
+div.Buttons {
+	text-align:right;
+	margin-right:100px;
+	margin-top:20px;
+}
+
+input.GetsAlong {
+	width:18px;
+	height:18px;
+	accent-color:#2f9905;
+}
+
+input.SubmitButton, input.ResetButton {
+	width:80px;
+	height:40px;
+	color:green;
+	font-weight:bold;
+	font-size:16px;
+	padding:2px 2px;
+	background-color:#f7f7f2;
+	border:2px solid green;
+	border-radius:10px 10px 10px 10px;
+}

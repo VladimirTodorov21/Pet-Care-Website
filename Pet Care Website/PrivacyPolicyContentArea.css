@@ -1,0 +1,67 @@
+
+table.ContentArea {
+	margin-left: 150px;
+	width:1200px;
+	height:700px;
+	border:round
+}
+
+td.ContentArea {
+	background-color:white;
+	vertical-align:top;
+	text-align:left;
+	padding: 0px 40px; 
+	border-radius: 60px;
+	border:2px solid #b38f68;
+	background-color:#dec4a6;
+}
+
+fieldset.PrivacyPolicy {
+	width:875px;
+	height:600px;
+	margin-left:100px;
+	margin-top:30px;
+	border:2px solid #dec4a6;
+	border-radius:20px 20px 20px 20px;
+	background-color:#f0d5b6;
+}
+
+legend.PrivacyPolicy {
+	text-align:center;
+	font-family:"Lucida", cursive;
+	font-size:24px;
+	font-weight:bold;
+	color: #3b250d;
+	padding: 0 1rem;
+	line-height:1;
+	border:2px solid #524433;
+	border-radius:5px 5px 5px 5px;
+	background-color:#d1ba9f;
+	padding:10px 5px;
+}
+
+ul.PrivacyPolicy {
+	padding:40px;
+}
+
+li.PrivacyPolicy {
+	padding:10px;
+	font-size:22px;
+	font-family:"Lucida", cursive;
+	color:#3b250d;
+}
+
+div.PrivacyPolicy {
+	width:400px;
+	height:300px;
+	margin-left:550px;
+	margin-top:15px;
+	
+	/* This image is taken from a website
+		Source: istockphoto.com
+		URL: https://www.istockphoto.com/photos/dog-and-cat-playing*/
+	
+	background-image:url('Images/PrivacyPolicyImage.png');
+	background-repeat:no-repeat;
+	background-size:400px 300px;
+}

@@ -1,0 +1,110 @@
+
+table.ContentArea {
+	margin-left: 150px;
+	width:1200px;
+	height:700px;
+	border:round
+}
+
+td.ContentArea {
+	background-color:white;
+	vertical-align:top;
+	text-align:left;
+	padding: 0px 40px; 
+	border-radius: 60px;
+	border:2px solid #d1b3a7;
+	background-color:#f2e9dc;
+}
+
+div.PetGiveawayBackground {
+	width:300px;
+	height:400px;
+	margin-left:775px;
+	margin-top:130px;
+	border-radius: 100px 100px 100px 100px;
+	
+	/* This image is taken from a website
+		Source: pinterest.com
+		URL: https://www.pinterest.ca/pin/549228117030285115/*/
+	
+	background-image:url('Images/PetGiveAwayBackground.png');
+	background-repeat:no-repeat;
+	background-size:300px 400px; 
+	position:absolute;
+}
+
+div.PetGiveawayContent {
+	width:850px;
+	height:550px;
+	margin-left:30px;
+	margin-top:5px;
+	position:absolute;
+}
+
+p.PetGiveawayTitle {
+	text-align:right;
+	font-weight:bold;
+	font-size:24px;
+	color:#7a361b;
+}
+
+td.PetGiveawayForm, p.PetGiveawayForm {
+	padding:5px 5px;
+	font-size:18px;
+	font-family:"Lucida", cursive;
+	color:#7a361b;
+}
+
+select.PetGiveawayForm {
+	width:200px;
+	font-size:18px;
+	font-family:"Lucida", cursive;
+	color:#7a361b;
+	border-radius:10px 10px 10px 10px;
+	border:2px solid #7a361b;
+	background-color:#f7f7f2;
+}
+
+input.GetsAlong {
+	width:18px;
+	height:18px;
+	accent-color:#7a361b;
+}
+
+input.OwnerName {
+	border:2px solid #7a361b;
+	border-radius:5px 5px 5px 5px;
+	padding:3px 10px;
+}
+
+input.OwnerEmail {
+	border:2px solid #7a361b;
+	border-radius:5px 5px 5px 5px;
+	padding:3px 10px;
+}
+
+textarea.CommentArea {
+	width:600px;
+	height:70px;
+	padding:10px 0px;
+	border:2px solid #7a361b;
+}
+
+div.Buttons {
+	text-align:right;
+	margin-right:148px;
+	margin-top:20px;
+}
+
+input.SubmitButton, input.ResetButton {
+	width:80px;
+	height:40px;
+	color:#7a361b;
+	font-weight:bold;
+	font-size:16px;
+	padding:2px 2px;
+	background-color:#f7f7f2;
+	border:2px solid #7a361b;
+	border-radius:10px 10px 10px 10px;
+}
+

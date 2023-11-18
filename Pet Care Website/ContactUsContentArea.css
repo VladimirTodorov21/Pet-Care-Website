@@ -1,0 +1,54 @@
+
+table.ContentArea {
+	margin-left: 150px;
+	width:1200px;
+	height:700px;
+	border:round
+}
+
+td.ContentArea {
+	background-color:white;
+	vertical-align:top;
+	text-align:left;
+	padding: 0px 40px; 
+	border-radius: 60px;
+	border:2px solid white;
+	
+	/* This image is taken from a website
+		Source: iloveqatar.com
+		URL: https://www.iloveqatar.net/qatar2022/guide/how-to-bring-pets-doha-world-cup*/
+	
+	background-image: url('Images/ContactUsBackGround.png');
+	background-repeat: no-repeat;
+	background-size: 1200px 700px;
+	
+}
+
+div.ContactBox1 {
+	margin-left:20px;
+	margin-top:30px;
+	width:325px;
+	height:325px;
+	background: rgba(252, 252, 252,0.7);
+	border:2px solid white;
+	border-radius: 50px 0px 50px 0px;
+	position:relative;
+}
+
+p.ContentTitle {
+	text-decoration:underline gray;
+	text-align:center;
+	font-weight:bold;
+	font-size:24px;
+	font-family:Helvetica;
+}
+
+td.info {
+	padding:10px 10px;
+	font-family: "Lucida", cursive;
+}
+
+p.extrainfo {
+	text-align:center;
+	font-family: "Lucida", cursive;
+}

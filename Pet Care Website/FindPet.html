@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+	
+<!-- Student Name: Vladimir Todorov
+	 Student ID: 40203170
+	 Assignment: 1
+	 Concordia University -->	
+	
+<html lang"en">	
+	<head>
+		<title> Adopt a Pet </title>
+		<meta charset="utf-8">
+		<link href='https://fonts.googleapis.com/css?family=Padyakke Expanded One' rel='stylesheet'>
+		<link rel="stylesheet" type="text/css" href="PageLayout.css">
+		<link rel="stylesheet" type="text/css" href="FindPetContentArea.css">
+		<link rel="stylesheet" type="text/javascript" href="FindPet.js">
+		<script src="js/date_time.js"> </script>
+		<script src="js/FindPetValidation.js"> </script>
+	</head>
+	<body> 
+		<div class="background">
+			<header>
+				<div class="header">
+					<table>
+						<tr>
+							<td>
+								<!-- This image is taken from a website
+									Source: vecteezy.com
+									URL: https://www.vecteezy.com/vector-art/8249343-veterinary-logo-cat-and-dog-logo-design-pet-care-vet-clinic-logo-pet-clinic -->
+								
+								<a target="_self" href="AdoptPetMain.html">
+									<img src="Images/PetLife.png" 
+										width = "225px" height = "150px"
+										align = "CENTER" />
+								</a>
+							</td>
+							<td> <p class="LogoName"> PetLife </p> </td>
+							<td> <p class="time"> <script type="text/javascript"> displayTime(); </script> </p> </td>
+						</tr>
+					</table>
+				</div>
+			</header>
+			
+			<div>
+				<table>
+					<tr>
+						<td class="SideMenuBorder">
+							<list class="SideMenu">
+								<li class="SideBar"> </li>
+								<li class="SideBar inactive"> <a class="Link" target="_self" href="AdoptPetMain.html"> Home Page </a> </li>
+								<li class="SideBar inactive"> <a class="Link" target="_self" href="BrowsePet.html"> Browse Pets </a> </li>
+								<li class="SideBar active"> Find a Pet </li>
+								<li class="SideBar inactive"> <a class="Link" target="_self" href="DogCare.html"> Dog Care </a> </li>
+								<li class="SideBar inactive"> <a class="Link" target="_self" href="CatCare.html"> Cat care </a> </li>
+								<li class="SideBar inactive"> <a class="Link" target="_self" href="PetGiveAway.html"> Pet Giveaway </a> </li>
+								<li class="SideBar inactive"> <a class="Link" target="_self" href="ContactUs.html"> Contact Us </a> </li>
+								<li class="SideBar"> </li>
+							</list>
+						</td>
+						<td>
+							<table class="ContentArea">
+								<tr>
+									<td class="ContentArea">
+										<div class="FindPetBackground"> </div>
+										<div class="FindPetContent"> 
+											<p class="FindPetTitle"> Looking for a Pet? </p>
+											<form name="myForm" action="#" onsubmit="return FindPetValidation()" method="post">
+												<table>
+													<tr>
+														<td class="FindPetForm"> Select the type of the animal </td>
+														<td class="FindPetForm"> 
+															<select class="FindPetForm" name="PetType">
+																<option value="N/A"> N/A </option>
+																<option value="Dog"> Dog </option>
+																<option value="Cat"> Cat </option>
+															</select>
+														</td>
+													</tr>
+													<tr>
+														<td class="FindPetForm"> Select the breed of the animal </td>
+														<td class="FindPetForm"> 
+															<select class="FindPetForm" name="PetBreed">
+																<option value="N/A"> N/A </option>
+																<option value="Labrador Retriever"> Labrador Retriever </option>
+																<option value="Golden Retriever"> Golden Retriever </option>
+																<option value="Chihuahua"> Chihuahua </option>
+																<option value="Bulldog"> Bulldog </option>
+																<option value="German Shepherd"> German Shepherd </option>
+																<option value="Husky"> Husky </option>
+																<option value="Poodle"> Poodle </option>
+																<option value="Yorkshire Terrier"> Yorkshire Terrier </option>
+																<option value="Pomeranian"> Pomeranian </option>
+																<option value="Pembroke"> Pembroke </option>
+																<option value="Shih Tzu"> Shih Tzu </option>
+																<option value="Damaltian"> Damaltian </option>
+																<option value="Dobermann"> Dobermann </option>
+																<option value="Siamese"> Siamese </option>
+																<option value="British Shorthair"> British Shorthair </option>
+																<option value="Persian"> Persian </option>
+																<option value="Sphynx"> Sphynx </option>
+																<option value="Scottish Fold"> Scottish Fold </option>
+																<option value="Birman"> Birman </option>
+																<option value="Russian Blue"> Russian Blue </option>
+																<option value="Ragdoll"> Ragdoll </option>
+																<option value="Somali"> Somali </option>
+																<option value="Chartreux"> Chartreux </option>
+																<option value="Balinese"> Balinese </option>
+																<option value="Tonkinese"> Tonkinese </option>
+																<option value="Burmilla"> Burmilla </option>
+																<option value="AnyBreed"> Doesn't matter </option>
+															</select>
+														</td>
+													</tr>
+													<tr>
+														<td class="FindPetForm"> Select the age of the animal </td>
+														<td class="FindPetForm"> 
+															<select class="FindPetForm" name="PetAge">
+																<option value="N/A"> N/A </option>
+																<option value="0"> 0 </option>
+																<option value="1"> 1 </option>
+																<option value="2"> 2 </option>
+																<option value="3"> 3 </option>
+																<option value="4"> 4 </option>
+																<option value="5"> 5 </option>
+																<option value="6"> 6 </option>
+																<option value="7"> 7 </option>
+																<option value="8"> 8 </option>
+																<option value="9"> 9 </option>
+																<option value="10+"> 10+ </option>
+																<option value="AnyAge"> Doesn't matter </option>
+															</select>
+														</td>
+													</tr>
+													<tr>
+														<td class="FindPetForm"> Select the gender of the animal </td>
+														<td class="FindPetForm"> 
+															<select class="FindPetForm" name="PetGender">
+																<option value="N/A"> N/A </option>
+																<option value="Male"> Male </option>
+																<option value="Female"> Female </option>
+																<option value="AnyGender"> Doesn't matter </option>
+															</select>
+														</td>
+													</tr>	
+													<tr>
+														<td class="FindPetForm"> Does it need to get along with	</td>
+														<td class="FindPetForm"> 
+															<label> <input type="checkbox" name="getsAlong[]" value= "OtherDogs" class="GetsAlong" /> Other Dogs </label>
+															<label> <input type="checkbox" name="getsAlong[]" value= "OtherCats" class="GetsAlong" /> Other Cats </label>
+															<label> <input type="checkbox" name="getsAlong[]" value= "SmallChildren" class="GetsAlong" /> Small Children </label>
+														</td>
+													</tr>
+												</table>
+												<div class="Buttons">
+													<input type = "submit" value = "Submit" class="SubmitButton" onclick="FindPetValidation()"/>
+													<input type = "reset" value = "Reset" class="ResetButton"/>		
+												</div>
+											<form>
+										</div>
+									</td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</div>
+			
+			<footer>
+				<div class="footer">
+					<p class="footerText"> <a class="Disclaimer" target="_self" href="PrivacyPolicy.html"> Privacy Policy </a> - Copyright&copy; PetLife </p>
+				</div>
+			</footer>
+		</div>
+	</body>
+<html>

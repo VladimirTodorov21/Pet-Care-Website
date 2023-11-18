@@ -1,0 +1,140 @@
+
+table.ContentArea {
+	margin-left: 150px;
+	width:1200px;
+	height:700px;
+	border:round
+}
+
+td.ContentArea {
+	background-color:white;
+	vertical-align:top;
+	text-align:left;
+	padding: 0px 40px; 
+	border-radius: 60px;
+	border:2px solid #fa9c37;
+	
+	/* This image is taken from a website
+		Source: okotokstoday.ca
+		URL: https://www.okotokstoday.ca/beyond-local/9-ways-to-save-on-dog-care-6442240*/
+	
+	background-image: url('Images/DogCareBackGround.png');
+	background-repeat: no-repeat;
+	background-size: 1200px 700px;	
+}
+
+p.ContentTitle {
+	-webkit-text-stroke: 1px #f76307;
+	text-align:center;
+	font-weight:bolder;
+	font-size:40px;
+	font-family:Helvetica;
+	color:#fafafa;
+}
+
+div.InstructionsList {
+	width:670px;
+	height:540px;
+	margin-left:100px;
+	position: absolute;
+}
+
+ol.InstructionList {
+	padding: 20px 150px;
+	border:2px dashed #fd6500;
+	background-color:#f99757;
+}
+
+li.InstructionList {
+	margin-top:10px;
+	font-weight:bold;
+	font-size:16px;
+	font-family: "Lucida", cursive;
+	color:white;
+}
+
+p.Source {
+	vertical-align:bottom;
+	text-align:right;
+	margin-right:10px;
+	font-family: "Lucida", cursive;
+	color:#ed5f00;
+}
+
+div.DogImage {
+	width:200px;
+	height:200px;
+	margin-left:750px;
+	border:2px solid white;
+	border-radius:100px 100px 100px 100px;
+	position: absolute;
+	
+	/* This image is taken from a website
+			Source: dogtopia.com
+			URL: https://www.dogtopia.com/dog-boarding/*/
+	
+	background-image: url('Images/DogCare.png');
+	background-repeat: no-repeat;
+	background-size: 200px 200px;
+}
+
+div.DogFood {
+	width:200px;
+	height:200px;
+	margin-left:800px;
+	margin-top:150px;
+	border:2px solid brown;
+	border-radius:100px 100px 100px 100px;
+	position: absolute;
+	
+	/* This image is taken from a website
+			Source: freepik.com
+			URL: https://www.freepik.com/free-photos-vectors/pet-food*/
+	
+	background-image: url('Images/DogFood.png');
+	background-repeat: no-repeat;
+	background-size: 200px 200px;
+}
+
+div.DogToys {
+	width:200px;
+	height:200px;
+	margin-left:850px;
+	margin-top:300px;
+	border-radius:100px 100px 100px 100px;
+	border:2px solid brown;
+	position: absolute;
+	
+	/* This image is taken from a website
+			Source: stock.adobe.com
+			URL: https://stock.adobe.com/ca/search/images?k=dog%20toys%20white%20background*/
+	
+	background-image: url('Images/DogToys.png');
+	background-repeat: no-repeat;
+	background-size: 200px 200px;
+}
+
+div.DogCareSource {
+	width:200px;
+	height:200px;	
+	text-align:center;
+	font-family: "Lucida", cursive;
+	position: absolute;
+	
+	/* This image is taken from a website
+			Source: vecteezy.com
+			URL: https://www.vecteezy.com/free-vector/dog-head-silhouette*/
+	
+	background-image: url('Images/DogSource.png');
+	background-repeat: no-repeat;
+	background-size: 200px 200px;
+}
+
+p.SourceLink {
+	margin-top:80px;
+}
+
+a.SourceLink {
+	text-decoration:none;
+	color:white;
+}
