@@ -1,10 +1,5 @@
 <!DOCTYPE html>
 
-<!-- Student Name: Vladimir Todorov
-	 Student ID: 40203170
-	 Assignment: 3
-	 Concordia University -->
-
 <html>
 	<body>
 		<?php
